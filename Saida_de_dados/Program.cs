@@ -33,8 +33,13 @@ namespace Saida_de_dados
             /* PlaceHolder */
             Console.WriteLine("{0} tem {1} anos e tem saldo igual a {2:F2} reais", nome2, idade2, saldo2);
             
-            /* Falta 10 min de aula */
+            /* Interpolação */
 
+            Console.WriteLine($"{nome2} tem {idade2} anos e tem saldo de {saldo2:F2} reais.");
+
+            /* Concatenação de string */
+
+            Console.WriteLine(nome2 + " tem " + idade2 + " anos e tem saldo de " + saldo2.ToString("F2", CultureInfo.InvariantCulture) + " reais");
         }
     }
 }
