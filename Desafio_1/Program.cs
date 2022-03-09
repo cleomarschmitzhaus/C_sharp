@@ -25,7 +25,7 @@ namespace Desafio_1
             
              Medida com oito casas decimais: 53,23456700
             Arredondando (Três casas decimais): 53,235
-            Separador decimal Invariant Culture: 53,235*/
+            Separador decimal Invariant Culture: 53.235*/
 
             Console.WriteLine($"{produto1}, cujo preço é $ {preco1}");
             Console.WriteLine($"{produto2}. cujo preço é $ {preco2}");
