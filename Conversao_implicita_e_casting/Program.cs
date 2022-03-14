@@ -49,8 +49,6 @@ namespace Conversao_implicita_e_casting
 
             double resultado2 = (double)l / z;
             Console.WriteLine(resultado2);
- 
-
         }
     }
 }
